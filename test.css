@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #333;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-image: url('bb.jpg');
+     background-size: cover;
+     background-position: center;
+    
+}
+
+#screen {
+    width: 370px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+}
+
+
+#start_screen{ 
+    display: flex;
+    flex-direction: column;  /* 세로 방향 쌓기 */
+    align-items: center;     /* 가로 중앙 정렬 */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px; /* 너비 고정 */
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#game_menu{
+     display: flex;
+     flex-direction: column;  /* 세로 방향 쌓기 */
+    align-items: center;     /* 가로 중앙 정렬 */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#battle_menu{
+     display: flex;
+     flex-direction: column;  /* 세로 방향 쌓기 */
+    align-items: center;     /* 가로 중앙 정렬 */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #555;  /* 좀 더 밝은 회색으로 */
+}
+#stat{
+    display: flex;
+}
+
+#hero_stat{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #ccc;
+}
+#hero_name {
+    font-size: 24px;       /* 기본보다 크게 */
+    font-weight: 700;      /* 두껍게 */
+    color: #fff;           /* 흰색으로 더 선명하게 */
+    text-shadow: 1px 1px 2px #000; /* 약간 그림자 넣어 가독성 향상 */
+}
+
+#monster_stat{
+    margin: 20px 80px;
+    font-size: 16px;
+    color: #ccc;
+}
+#hero_stat span{
+    display: block;
+    margin: 5px 0;
+}
+#monster_stat span{
+    display: block;
+    margin: 5px 0;
+}
+
+#message{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #555;
+    
+}
